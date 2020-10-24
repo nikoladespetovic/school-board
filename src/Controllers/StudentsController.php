@@ -108,7 +108,6 @@ class StudentsController {
         if(count($grades) > 0){
             $avg = array_sum($grades) / count($grades);
         }
-
         return $avg;
     }
 
